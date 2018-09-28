@@ -21,6 +21,12 @@ pre {
 
 a {
   color: #000;
+  position: absolute;
+  padding-right: 30px;
+  font-weight: bolder;
+  font-size: large;
+  color: black;
+  display: inline;
 
   &:visited {
     color: #666;

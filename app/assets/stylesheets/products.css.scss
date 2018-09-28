@@ -2,7 +2,7 @@
 	table {
 	border-collapse: collapse;
 	}
-
+}
 table tr td {
 	padding: 5px;
 	vertical-align: top;
@@ -19,12 +19,11 @@ dl {
 	margin: 0;
     }
 dt {
-	color: #244;
+	color: red;
 	font-weigth: bold;
 	font-size: larger;
    }
-dd
-{
+dd {
 	margin: 0;
 
   }
@@ -37,10 +36,9 @@ dd
 }
 .list_line_even
 {
-	background: #e0f8f8;
+	background: black;
 }
 .list_line_odd
 {
-	background: #f8b0f8;
-}
+	background: white;
 }

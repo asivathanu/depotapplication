@@ -1,0 +1,110 @@
+.store {
+  h1{
+    margin: 0;
+    padding-bottom: 0.5em;
+    font: 150% Sans-Serif;
+    color: #226;
+    border-bottom: 3px dotted #77d;
+
+  }
+.entry{
+overflow: auto;
+margin-top: 1em;
+border-bottom: 1px dotted #77d;
+min-height: 100px;
+img{
+width: 88px;
+margin-right:5px;
+margin-bottom: 5px;
+position: absolute;}
+
+h3{
+font-size: 120%;
+  font-family: Sans-Serif;
+  margin-left: 100px;
+  margin-top: 0;
+  margin-bottom: 2px;
+  color: #227;
+}
+p,div.price_line {
+margin-left: 100px;
+margin-top: 0.5em;
+margin-bottom: 0.8em;
+}
+.price
+{
+color: #44a;
+font-weight: bold;
+margin-right: 3em;
+}
+  ul{
+    list-style-type: none;
+  }
+  li {
+    display: inline;
+    float: left;
+  }
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+
+  p, div.price_line { margin-left: 100px;
+    margin-top: 0.5em; margin-bottom: 0.8em;
+    form, div { display: inline;
+    } }
+
+}
+}
+
+
+// Place all the styles related to the Store controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.store {
+  h1 {
+    margin: 0;
+    padding-bottom: 0.5em;
+    font:  150% sans-serif;
+    color: #d27719;
+    border-bottom: 3px dotted #f9af40;
+  }
+
+  /* An entry in the store catalog */
+  .entry {
+    overflow: auto;
+    margin-top: 1em;
+    border-bottom: 1px dotted #f9af40;
+    min-height: 100px;
+
+    img {
+      width: 80px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+      position: absolute;
+    }
+
+    h3 {
+      font-size: 120%;
+      font-family: sans-serif;
+      margin-left: 100px;
+      margin-top: 0;
+      margin-bottom: 2px;
+      color: #d27719;
+    }
+
+    p, div.price_line {
+      margin-left: 100px;
+      margin-top: 0.5em;
+      margin-bottom: 0.8em;
+    }
+
+    .price {
+      color: #f9af40;
+      font-weight: bold;
+      margin-right: 3em;
+    }
+  }
+}
