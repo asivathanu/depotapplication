@@ -1,8 +1,8 @@
 .products {
 	table {
-	border-collapse: collapse ;
+	border-collapse: collapse;
 	}
-}
+
 table tr td {
 	padding: 5px;
 	vertical-align: top;
@@ -23,22 +23,24 @@ dt {
 	font-weigth: bold;
 	font-size: larger;
    }
-dd {
+dd
+{
 	margin: 0;
 
   }
 }
-.list_actions{
+.list_actions
+{
 	font-size: x-small;
 	text-align: right;
 	padding-left: lem;
 }
-.list_line_even {
+.list_line_even
+{
 	background: #e0f8f8;
 }
 .list_line_odd
 {
 	background: #f8b0f8;
 }
-
-
+}
